@@ -15,7 +15,7 @@ export default defineConfig({
   use: {
     headless: true,
     trace: 'on',
-    baseURL: 'http://speak-ukrainian.eastus2.cloudapp.azure.com/dev/',
+    baseURL: 'http://localhost/',
     locale: 'uk-UA',
   },
   projects: [
